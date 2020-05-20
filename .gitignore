@@ -3,4 +3,5 @@
 *.sql
 *.txt
 *.bak
+*.json
 mrc-converter-suite*
