@@ -1,6 +1,6 @@
 # Extracting Phabricator Passphrase and importing into 1Password
 
-For whatever reason, you may find yourself needing to extract the whole Phabricator Passphrase dataabse and importing it into your 1Password.
+For whatever reason, you may find yourself needing to extract the whole Phabricator Passphrase database and importing it into your 1Password.
 
 For this, you will need to have:
 1. SSH access to the server instance where your Phabricator is hosted
