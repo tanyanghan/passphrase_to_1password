@@ -170,6 +170,9 @@ def assemble_data(user_data, passphrase_data, secret_data):
     login_entry = login(csv_fields)
 
     for entry in passphrase_data:
+        # check if the entry's isDestroyed field and skip it
+        if entry["isDestroyed"] == "1":
+            continue
         login_entry.new()
 
         login_entry.add("Title","K" + entry["id"] + " - " + entry["name"])
